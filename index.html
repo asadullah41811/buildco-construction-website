@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Bootstrap 5 website</title>
+  </head>
+  <body>
+    <!-- navbar section -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+  <div class="container-fluid">
+    <a class="navbar-brand href="#"><span class="text-success">Build</span>Con</a>
+
+
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Our Services</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Projects</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+        </li>
+    </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- main-section -->
+ 
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/home-1.jpg" class="d-block w-100" alt="home1">
+      <div class="carousel-caption d-none d-md-block">
+        <section class="section-padding">        <h5>Your Dream house</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed exercitationem explicabo nesciunt, aliquid eos perspiciatis distia quod labore  nulla! Nobis.</p>
+        <p><a href="" class="btn btn-success mt-3">Learn More</a></p>
+        </section>
+
+       
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/home-2.jpg" class="d-block w-100" alt="Home 2">
+      <div class="carousel-caption d-none d-md-block">
+        <section class="section-padding">
+        <h5>Always Dedicated </h5>
+        <p>Lorem ipsum dolor sit amet consectetur adtatibus. Fugit laborum obcaecati illo maxime!</p>
+        <p><a href="" class="btn btn-success mt-3">Learn More</a></p>
+        </section>
+       
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/home-3.jpg" class="d-block w-100" alt="Home3">
+      <div class="carousel-caption d-none d-md-block">
+        <section class="section-padding">
+        <h5>True Construction</h5>
+        <p>Lorem ipsum dolor, sit amet consectetur adni fuga aperiam, aliquam velit voluptatem esse veniam quae?s</p>
+        <p><a href="" class="btn btn-success mt-3">Learn More</a></p>
+        </section>
+        
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- about sectionn -->
+ <section id="about" class="about-section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-12 mt-5 ">
+                <div class="about-img">
+                    <img src="img/about.jpg" alt="about img"  class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                <div class="about-text">
+                    <h2>We Provide Best Quality <br>Services Every</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui cupiditate eligendi dolor consectetur cumque deserunt delectus nostrum magni pariatur maxime. Ipsam quidem, fuga dicta reiciendis consequatur quia nobis exercitationem blanditiis dolores quas quasi.</p>
+                    <a href="#" class="btn btn-success">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+ </section>
+ <!-- service section -->
+  
+<section class="services-section py-5">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <!-- <span class="section-subtitle">WHAT WE DO</span> -->
+      <h2 class="section-title fw-bold mt-2">
+        Our Construction Services
+      </h2>
+      <p class="text-muted">
+        Building your vision with quality, trust, and expertise.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Service 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card h-100">
+          <div class="service-img">
+            <img
+              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+              alt="Residential construction">
+          </div>
+          <div class="service-content">
+            <span class="service-number">01</span>
+            <h4>Residential Construction</h4>
+            <p>
+              We build beautiful, durable homes with
+              modern designs and quality materials.
+            </p>
+            <a href="#" class="service-link">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card h-100">
+          <div class="service-img">
+            <img
+              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+              alt="Commercial building">
+          </div>
+          <div class="service-content">
+            <span class="service-number">02</span>
+            <h4>Commercial Construction</h4>
+            <p>
+              Professional construction for offices,
+              commercial buildings, and business spaces.
+            </p>
+            <a href="#" class="service-link">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card h-100">
+          <div class="service-img">
+            <img
+              src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80"
+              alt="Architecture and planning">
+          </div>
+          <div class="service-content">
+            <span class="service-number">03</span>
+            <h4>Architecture & Planning</h4>
+            <p>
+              Creative architectural concepts and
+              practical plans tailored to your project.
+            </p>
+            <a href="#" class="service-link">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card h-100">
+          <div class="service-img">
+            <img
+              src="img/construcotr.png"
+              alt="Home renovation">
+          </div>
+          <div class="service-content">
+            <span class="service-number">04</span>
+            <h4>Renovation & Remodeling</h4>
+            <p>
+              Transform existing spaces with modern
+              upgrades and professional finishing.
+            </p>
+            <a href="#" class="service-link">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 5 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card h-100">
+          <div class="service-img">
+            <img
+              src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80"
+              alt="Civil engineering construction site">
+          </div>
+          <div class="service-content">
+            <span class="service-number">05</span>
+            <h4>Civil Engineering</h4>
+            <p>
+              Reliable engineering solutions for
+              structural and infrastructure projects.
+            </p>
+            <a href="#" class="service-link">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 6 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card h-100">
+          <div class="service-img">
+            <img
+              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
+              alt="Construction project management">
+          </div>
+          <div class="service-content">
+            <span class="service-number">06</span>
+            <h4>Project Management</h4>
+            <p>
+              Coordinating schedules, resources, and
+              project activities from start to finish.
+            </p>
+            <a href="#" class="service-link">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+ 
+
+
+<!-- Project section -->
+ <section id="Project-section" class="project-section">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+        <div class="section-header  text-center pb-5">
+
+          <h1> Our Projects</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero reprehenderit voluptatem, enim labore ab minitecto quam deleniti ipsum!</p>
+        </div>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-12 col-lg-4">
+      <div class="card text-lght text-center bg-white pb-2">
+        <div class="card-body text-dark">
+          <div class="img-area mb-4"> 
+            <img src="img/project-1.jpg" alt="project 1" class="img-fluid">
+
+          </div>
+          <h3 class="card-title fw-bold"> Building Maker</h3>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum magnam, nemo suscipit qui nihil eaque odit quis ea velit temporibus ullam corporis ducimus harum? Quas quis sed est nesciunt reiciendis natus, sequi atque?</p>
+          <button class="btn bg-success text-center text-white" >More Learn</button>
+        </div>
+      </div>
+    </div>
+     <div class="col-12 col-md-12 col-lg-4">
+      <div class="card text-lght text-center bg-white pb-2">
+        <div class="card-body text-dark">
+          <div class="img-area mb-4"> 
+            <img src="img/project-2.jpg" alt="project 1" class="img-fluid">
+
+          </div>
+          <h3 class="card-title fw-bold"> Building Maker</h3>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum magnam, nemo suscipit qui nihil eaque odit quis ea velit temporibus ullam corporis ducimus harum? Quas quis sed est nesciunt reiciendis natus, sequi atque?</p>
+          <button class="btn bg-success text-center text-white" >More Learn</button>
+        </div>
+      </div>
+    </div>
+     <div class="col-12 col-md-12 col-lg-4">
+      <div class="card text-lght text-center bg-white pb-2">
+        <div class="card-body text-dark">
+          <div class="img-area mb-4"> 
+            <img src="img/project-3.jpg" alt="project 1" class="img-fluid">
+
+          </div>
+          <h3 class="card-title fw-bold"> Building Maker</h3>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum magnam, nemo suscipit qui nihil eaque odit quis ea velit temporibus ullam corporis ducimus harum? Quas quis sed est nesciunt reiciendis natus, sequi atque?</p>
+          <button class="btn bg-success text-center text-white" >More Learn</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+</section>
+
+<!-- Team -section -->
+ 
+<section class="clients-section py-5">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">What Our Clients Say</h2>
+      <p class="text-muted">
+        Trusted by our happy clients
+      </p>
+    </div>
+
+    <!-- Client Cards -->
+    <div class="row g-4">
+
+      <!-- Client 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card client-card h-100 text-center p-4">
+          <img
+            src="https://i.pravatar.cc/150?img=12"
+            class="client-img mx-auto mb-3"
+            alt="John Smith">
+
+          <h5 class="fw-bold mb-1">John Smith</h5>
+          <p class="text-muted small">Business Owner</p>
+
+          <div class="stars mb-3">★★★★★</div>
+
+          <p class="card-text text-secondary">
+            "Excellent service and a great experience.
+            I highly recommend this team."
+          </p>
+        </div>
+      </div>
+
+      <!-- Client 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card client-card h-100 text-center p-4">
+          <img
+            src="https://i.pravatar.cc/150?img=47"
+            class="client-img mx-auto mb-3"
+            alt="Sarah Johnson">
+
+          <h5 class="fw-bold mb-1">Sarah Johnson</h5>
+          <p class="text-muted small">Marketing Manager</p>
+
+          <div class="stars mb-3">★★★★★</div>
+
+          <p class="card-text text-secondary">
+            "A professional team that delivered
+            exactly what we needed."
+          </p>
+        </div>
+      </div>
+
+      <!-- Client 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card client-card h-100 text-center p-4">
+          <img
+            src="https://i.pravatar.cc/150?img=33"
+            class="client-img mx-auto mb-3"
+            alt="David Wilson">
+
+          <h5 class="fw-bold mb-1">David Wilson</h5>
+          <p class="text-muted small">Startup Founder</p>
+
+          <div class="stars mb-3">★★★★★</div>
+
+          <p class="card-text text-secondary">
+            "Great quality, friendly support,
+            and outstanding results."
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<footer class="footer-section text-white pt-5 pb-3">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Company Info -->
+      <div class="col-md-6 col-lg-3">
+       <h3 class="footer-logo">
+    <span class="build">Build</span>
+    <span class="co">CO</span>
+</h3>
+        <p class="footer-text">
+          We build modern, responsive, and user-friendly
+          websites for your business.
+        </p>
+
+        <div class="social-links d-flex gap-3">
+          <a href="#" aria-label="Facebook">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="#" aria-label="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-6 col-lg-3">
+        <h5 class="footer-heading">Quick Links</h5>
+        <ul class="footer-links list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-6 col-lg-3">
+        <h5 class="footer-heading">Our Services</h5>
+        <ul class="footer-links list-unstyled">
+          <li><a href="#">Residential Construction</a></li>
+          <li><a href="#">Commercial Construction</a></li>
+          <li><a href="#">Architecture & Planning</a></li>
+          <li><a href="#">Renovation & Remodeling</a></li>
+          <li><a href="#">Project Management</a></li>
+          <li><a href="#">Civil Enginerring</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-6 col-lg-3">
+        <h5 class="footer-heading">Contact Us</h5>
+        <p class="footer-text">
+          <i class="bi bi-envelope me-2"></i>
+          hello@example.com
+        </p>
+        <p class="footer-text">
+          <i class="bi bi-telephone me-2"></i>
+          +92 300 1234567
+        </p>
+        <p class="footer-text">
+          <i class="bi bi-geo-alt me-2"></i>
+          Lahore, Pakistan
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <hr class="footer-divider">
+
+    <div class="text-center footer-text">
+      <p class="mb-0">
+        © 2026 BuildCon. All rights reserved.
+        Made with ❤️ by Asad Ullah.
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
